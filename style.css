@@ -13,3 +13,9 @@
     color: #2ad630;
     background: #2ad630;
 }
+body  {
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color:rgba(0,0,0,.55);
+}
