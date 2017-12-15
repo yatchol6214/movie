@@ -21,5 +21,8 @@ body  {
 }
 #handwrite{
     font-family: 'Permanent Marker', cursive;
-    color:;
+    color:#726e5a;
+}
+#TobyFont{
+    font-family: 'Bungee', cursive;
 }
