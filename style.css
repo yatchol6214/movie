@@ -13,8 +13,9 @@
     color: #2ad630;
     background: #2ad630;
 }
-body  {
+bg  {
     background-image: url("BG.jpg");
+    opacity: 0.5;
     background-repeat: no-repeat;
     margin: auto;
     background-color:rgba(0,0,0,.55);
