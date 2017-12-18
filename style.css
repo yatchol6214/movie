@@ -13,12 +13,10 @@
     color: #2ad630;
     background: #2ad630;
 }
-bg  {
+body {
     /*background:#7a8586 url('BG.jpg') no-repeat;*/
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    margin: auto;
-    background-color:rgba(0,0,0,.55);
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(GGO.png);
+  background-size:cover;
 }
 #handwrite{
     font-family: 'Permanent Marker', cursive;
@@ -42,4 +40,13 @@ div{
 .borders{
     border-color: #ea3333;
     border-style: solid;
+    margin: auto;
+    margin:20px 10px 20px 10px;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+img{
+    opacity:.5;
 }
