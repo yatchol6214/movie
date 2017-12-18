@@ -13,6 +13,15 @@
     color: #2ad630;
     background: #2ad630;
 }
+img{
+    height:auto;
+    width:auto;
+    margin:auto;
+}
+img.sizeimg{
+    height:100%;
+    width:100%;
+}
 body {
     /*background:#7a8586 url('BG.jpg') no-repeat;*/
   background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(GGO.png);
@@ -21,9 +30,6 @@ body {
 #handwrite{
     font-family: 'Permanent Marker', cursive;
     color:#726e5a;
-}
-#Bungeee{
-    font-family: 'Bungee', cursive;
 }
 h2{
     
@@ -35,7 +41,7 @@ strong{
     color:red;
 }
 div{
-    font-size: 24px;
+    font-size: 50px;
 }
 .borders{
     border-color: #ea3333;
@@ -49,4 +55,7 @@ img:hover {
 }
 img{
     opacity:.5;
+}
+p:hover{
+     opacity:1.4;
 }
