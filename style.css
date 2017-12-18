@@ -14,7 +14,7 @@
     background: #2ad630;
 }
 bg  {
-    background-image: url("BG.jpg");
+    /*background:#7a8586 url('BG.jpg') no-repeat;*/
     opacity: 0.5;
     background-repeat: no-repeat;
     margin: auto;
@@ -26,4 +26,13 @@ bg  {
 }
 #saodont{
     font-family: 'Bungee', cursive;
+}
+h2{
+    
+}
+img{
+    float: left;
+}
+strong{
+    color:red;
 }
