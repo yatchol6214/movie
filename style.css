@@ -32,10 +32,11 @@ body{
     font-family: 'Permanent Marker', cursive;
     color:#726e5a;
 }
-h2{
-    
+body.bg{
+      background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
 }
-
 strong{
     color:red;
 }
