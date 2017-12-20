@@ -19,6 +19,7 @@ img{
     margin:auto;
 }
 .sizeimg{
+    position: absolute;
     width:150px;
     height:150px;
     
@@ -46,6 +47,8 @@ div{
 .borders{
     border-color: #ea3333;
     border-style: solid;
+    padding: 20px;
+    position: relative;
     margin: auto;
     margin:20px 10px 20px 10px;
 }
@@ -57,8 +60,12 @@ img{
     opacity:.5;
     float: left;
 }
-p:hover{
-     opacity:1.4;
+.borders1{
+    padding: 25px;
+    border-color: blue;
+    border-style: solid;
+    position: relative;
+
 }
 button{
         display: block;
