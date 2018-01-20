@@ -1,3 +1,4 @@
+
 .blue-button {
     border-radius: 28px;
     font-family: Arial;
@@ -9,30 +10,45 @@
     margin: 20px;
 }
 
+
 .blue-button:hover {
-    color: #2ad630;
+    color: #2ad630;/*when mouse hover on the blue submit buttom, it turns red */
     background: #2ad630;
 }
 .sizeimg{
     position: absolute;
     width:150px;
     height:150px;
+    transition: background-image 10s ease;
+    
+    
     
 }
+.sizeimg:hover{
+    width:500px;
+    height:500px;
+    opacity: 1.0;/*the image will pop up and increase its size to 500px*500px */
+    
+}
+
+
 body{
-  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(background.jpg);
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(background.jpg);/*set background to background.jpg and the color to faid to dark*/
   background-size:cover;
   background-repeat: no-repeat;
 }
+
 #handwrite{
     font-family: 'Permanent Marker', cursive;
     color:#726e5a;
 }
 body.bg{
-      background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img.jpg);
+      background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img.jpg);/*set background to img.jpg and the color to faid to dark*/
       background-size:cover;
       background-repeat: no-repeat;
 }
+
+
 strong{
     color:red;
 }
@@ -40,8 +56,9 @@ div{
     font-size: 24px;
 }
 .borders{
-    border-color: #ea3333;
+    border-color: red;
     border-style: solid;
+    
     padding: 20px;
     position: relative;
     margin: auto;
@@ -61,16 +78,29 @@ img{
 }
 .size1{
     height:200px;
-    width:270px;
-    max-height:200px;
-    max-width: 270px;
+    width:300px;
+    transition: width,height 3s ease;/*the campus image will have a defult size of 200px*300px */
+  
 }
+.size1:hover{
+   height:250px;
+   width:700px;
+   transform: scale(1,1.75);/*The image will slowly transit to 250px*750px with a scale of 1.75(100% to 175%) */
+   border-color: blue;
+   box-shadow: 1px 1px  1px 1px blue
+   
+    
+    
+    
+}
+
 .borders1{
     padding: 25px;
     border-color: blue;
     border-style: solid;
     position: relative;
     margin:20px 10px 25px 10px;
+    text-shadow:blue
 
 
 }
@@ -81,4 +111,53 @@ hr{
     color: #2cf436;
     background-color: #f00;
     height: 5px;
+}
+
+.borders, div font, div span, body font{
+   
+    animation: colorswitch 15s infinite;/*This will set the text into different color in the time period of 15 second (red,orange yellow,green.......purple) */
+}
+
+@keyframes colorswitch {
+  0% {
+  color: red;
+  }
+  10%{
+  color: orange;      
+  }
+  20%{
+    color:yellow ;  
+  }
+  30%{
+     color:#bff442;
+  }
+  40%{
+      color:#41f459;
+  }
+  50%{
+      color:#41f4ac;
+  }
+  60%{
+      color:#41e2f4;
+  }
+  70%{
+      color:#417cf4;
+  }
+  75%{
+     color:#4155f4;
+  }
+  80%{
+      color:#7641f4;
+  }
+  90%{
+      color:#bff442;
+  }
+  100% {
+    color:#e541f4;
+  }
+}
+.bg{
+    text-shadow: 3px 3px blue; /*text shadow for sequel.html text */
+    
+    
 }
