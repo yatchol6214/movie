@@ -115,7 +115,7 @@ hr{
 
 .borders, div font, div span, body font{
    
-    animation: colorswitch 15s infinite;/*This will set the text into different color in the time period of 15 second (red,orange yellow,green.......purple) */
+    animation: colorswitch 30s infinite;/*This will set the text into different color in the time period of 15 second (red,orange yellow,green.......purple) */
 }
 
 @keyframes colorswitch {
@@ -152,9 +152,16 @@ hr{
   90%{
       color:#bff442;
   }
-  100% {
+  95% {
     color:#e541f4;
   }
+  97%{
+     color:#ff448f; 
+      
+  }
+  100% {
+      color:red;
+      }
 }
 .bg{
     text-shadow: 3px 3px blue; /*text shadow for sequel.html text */
